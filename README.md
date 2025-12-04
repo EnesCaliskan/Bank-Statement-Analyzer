@@ -63,3 +63,9 @@ To verify data integrity and logic:
 python manage.py test
 ```
 
+#### NOTES
+
+The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
+```bash
+pip install -r requirements.txt
+```
